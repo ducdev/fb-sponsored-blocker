@@ -1,7 +1,7 @@
 window.addEventListener('scroll', function () {
   var sponsoredPosts = document.querySelectorAll("div > div > div > div > div > div > div > div > div > div > div > div > div > div > * > div > div > div > div > div > div > div > div > div > div > div > div > span > a > span");
   sponsoredPosts.forEach((sponsoredPost) => {
-    if (sponsoredPost) {
+    if (sponsoredPost && sponsoredPost.innerText === 'Sponsored') {
       var ancestor = sponsoredPost.parentNode;
       for (var i = 0; i < 14; i++) {
         ancestor = ancestor.parentNode
