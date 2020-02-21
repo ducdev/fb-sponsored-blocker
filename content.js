@@ -1,9 +1,9 @@
 window.addEventListener('scroll', function () {
-  var sponsoredPosts = document.querySelectorAll("div > div > div > div > div > div > div > div > div > div > div > div > div > div > * > div > div > div > div > div > div > div > div > div > div > div > div > span > a > span");
+  var sponsoredPosts = document.querySelectorAll("div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > span > a");
   sponsoredPosts.forEach((sponsoredPost) => {
     if (sponsoredPost && sponsoredPost.innerText === 'Sponsored') {
       var ancestor = sponsoredPost.parentNode;
-      for (var i = 0; i < 14; i++) {
+      for (var i = 0; i < 13; i++) {
         ancestor = ancestor.parentNode
       }
       // ancestor.remove()
