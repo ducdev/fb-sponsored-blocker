@@ -1,5 +1,5 @@
 # FB Sponsored Blocker
-Chrome extension which blocks sponsored facebook posts.
+Chrome extension which blocks sponsored facebook posts. No more distraction, focus on what you really care!
 
 # How to use?
 
